@@ -11,10 +11,45 @@ body {
 	text-decoration: none;
 }
 
+.logo-first-color {
+	color: #2196f3;
+}
+
 .logo:visited {
 	color: #000000;
 }
 
-.logo-first-color {
+header {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+}
+
+.menu {
+	color: #212121;
+}
+
+.menu-list {
+	list-style-type: none;
+}
+
+.menu-list-item:visited {
+	color: inherit;
+}
+
+.menu-list-item:hover {
+	color: #2196f3;
+}
+
+.contact {
+	color: #757575;
+}
+
+.contact.visited {
+	color: inherit;
+}
+
+.contact.hover {
 	color: #2196f3;
 }
