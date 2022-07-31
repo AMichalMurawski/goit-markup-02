@@ -1,14 +1,17 @@
 body {
 	font-family: "Roboto", sans-serif;
+	color: #212121;
+	background: #ffffff;
 }
 
 .logo {
 	font-family: "Raleway";
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 31px;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
 	text-decoration: none;
+	color: #000000;
 }
 
 .logo-first-color {
@@ -16,18 +19,14 @@ body {
 }
 
 .logo:visited {
-	color: #000000;
-}
-
-header {
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 16px;
-	letter-spacing: 0.02em;
+	color: inherit;
 }
 
 .menu {
-	color: #212121;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 
 .menu-list {
@@ -42,14 +41,26 @@ header {
 	color: #2196f3;
 }
 
+.menu-list-item:focus {
+	color: #2196f3;
+}
+
 .contact {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 	color: #757575;
 }
 
-.contact.visited {
+.contact:visited {
 	color: inherit;
 }
 
-.contact.hover {
+.contact:hover {
+	color: #2196f3;
+}
+
+.contact:focus {
 	color: #2196f3;
 }
