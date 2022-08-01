@@ -2,8 +2,8 @@
 	--background-all: #ffffff;
 	--background-dark: #2f303a;
 	--background-filter: #f5f4fa;
-	--color-address: rgba(255, 255, 255, 0.6);
 	--color-all: #212121;
+	--color-contact-transparent: rgba(255, 255, 255, 0.6);
 	--color-logo-web: #2196f3;
 	--color-select: #2196f3;
 	--color-text-black: #000000;
@@ -59,12 +59,27 @@ body {
 	color: var(--color-select);
 }
 
-.contact {
+.contact-top {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
+	font-style: normal;
+	text-decoration: none;
 	letter-spacing: 0.02em;
 	color: var(--color-text-grey);
+}
+
+.contact-down {
+	font-size: 14px;
+	line-height: 1.71;
+	font-style: normal;
+	text-decoration: none;
+	letter-spacing: 0.03em;
+	color: var(--color-contact-transparent);
+}
+
+.contact-street {
+	color: var(--color-text-white);
 }
 
 .contact:visited {
@@ -78,17 +93,6 @@ body {
 
 .dark-background {
 	background: var(--background-dark);
-}
-
-.address {
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
-	color: var(--color-address);
-}
-
-.address-street {
-	color: var(--color-text-white);
 }
 
 .service {
