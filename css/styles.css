@@ -1,13 +1,13 @@
 :root {
 	--background-all: #ffffff;
-	--background-footer: #2f303a;
+	--background-dark: #2f303a;
 	--color-address: rgba(255, 255, 255, 0.6);
 	--color-all: #212121;
-	--color-address-street: #ffffff;
-	--color-logo-footer: #ffffff;
-	--color-logo-header: #000000;
 	--color-logo-web: #2196f3;
 	--color-select: #2196f3;
+	--color-text-black: #000000;
+	--color-text-grey: #757575;
+	--color-text-white: #ffffff;
 }
 
 body {
@@ -25,39 +25,37 @@ body {
 	text-decoration: none;
 }
 
-.logo-header {
-	color: var(--color-logo-header);
+.logo-first {
+	color: var(--color-text-black);
 }
 
-.logo-footer {
-	color: var(--color-logo-footer);
+.logo-second {
+	color: var(--color-text-white);
 }
 
 .logo-color-web {
 	color: var(--color-logo-web);
 }
 
-.menu {
+.list-none {
+	list-style-type: none;
+}
+
+.menu-list-item {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-}
-
-.menu-list {
-	list-style-type: none;
+	text-decoration: none;
 }
 
 .menu-list-item:visited {
 	color: inherit;
 }
 
-.menu-list-item:hover {
-	color: #2196f3;
-}
-
+.menu-list-item:hover,
 .menu-list-item:focus {
-	color: #2196f3;
+	color: var(--color-select);
 }
 
 .contact {
@@ -65,23 +63,20 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: #757575;
+	color: var(--color-text-grey);
 }
 
 .contact:visited {
 	color: inherit;
 }
 
-.contact:hover {
-	color: var(--color-select);
-}
-
+.contact:hover,
 .contact:focus {
 	color: var(--color-select);
 }
 
-.footer {
-	background: var(--background-footer);
+.dark-background {
+	background: var(--background-dark);
 }
 
 .address {
@@ -92,5 +87,69 @@ body {
 }
 
 .address-street {
-	color: var(--color-address-street);
+	color: var(--color-text-white);
+}
+
+.service {
+	text-align: center;
+}
+
+.service-text {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--color-text-white);
+}
+
+.service-order {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.875;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: var(--color-text-white);
+	background: var(--color-select);
+}
+
+.information-subheader {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.information-paragraph {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--color-text-grey);
+}
+
+.information-header {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.employee {
+	text-align: center;
+}
+
+.employee-name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.1875;
+	letter-spacing: 0.03em;
+}
+
+.employee-position {
+	font-size: 16px;
+	line-height: 1.1875;
+	letter-spacing: 0.03em;
+	color: var(--color-text-grey);
 }

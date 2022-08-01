@@ -17,14 +17,14 @@
 
 	<body>
 		<header>
-			<a class="logo logo-header" href="index.html"
+			<a class="logo logo-first" href="index.html"
 				><span class="logo-color-web">Web</span>Studio</a
 			>
 
-			<nav class="menu">
-				<ul class="menu-list">
+			<nav>
+				<ul class="list-none">
 					<li>
-						<a class="menu-list-item" href="#">Agencja</a>
+						<a class="menu-list-item" href="index.html">Agencja</a>
 					</li>
 					<li>
 						<a class="menu-list-item" href="portfolio.html"
@@ -44,41 +44,45 @@
 		</header>
 
 		<main>
-			<section>
-				<h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+			<section class="service dark-background">
+				<h1 class="service-text">
+					Efektywne rozwiązania dla waszego biznesu
+				</h1>
 
-				<button type="button">Zamów usługe</button>
+				<button class="service-order" type="button">
+					Zamów usługe
+				</button>
 			</section>
 
 			<section>
-				<ul>
+				<ul class="list-none">
 					<li>
-						<h3>Lorem ipsum</h3>
-						<p>
+						<h3 class="information-subheader">Lorem ipsum</h3>
+						<p class="information-paragraph">
 							Lorem ipsum dolor sit amet, consectetur adipiscing
 							elit. Nam vel arcu sem. Sed non sodales dui.
 							Interdum et malesuada
 						</p>
 					</li>
 					<li>
-						<h3>Lorem ipsum</h3>
-						<p>
+						<h3 class="information-subheader">Lorem ipsum</h3>
+						<p class="information-paragraph">
 							Lorem ipsum dolor sit amet, consectetur adipiscing
 							elit. Nam vel arcu sem. Sed non sodales dui.
 							Interdum et malesuada
 						</p>
 					</li>
 					<li>
-						<h3>Lorem ipsum</h3>
-						<p>
+						<h3 class="information-subheader">Lorem ipsum</h3>
+						<p class="information-paragraph">
 							Lorem ipsum dolor sit amet, consectetur adipiscing
 							elit. Nam vel arcu sem. Sed non sodales dui.
 							Interdum et malesuada
 						</p>
 					</li>
 					<li>
-						<h3>Lorem ipsum</h3>
-						<p>
+						<h3 class="information-subheader">Lorem ipsum</h3>
+						<p class="information-paragraph">
 							Lorem ipsum dolor sit amet, consectetur adipiscing
 							elit. Nam vel arcu sem. Sed non sodales dui.
 							Interdum et malesuada
@@ -88,8 +92,8 @@
 			</section>
 
 			<section>
-				<h2>Czym się zajmujemy</h2>
-				<ul>
+				<h2 class="information-header">Czym się zajmujemy</h2>
+				<ul class="list-none">
 					<li>
 						<img
 							src="./images/close-up-image-programer-working-his-desk-office_1098-18707.jpg"
@@ -118,10 +122,10 @@
 			</section>
 
 			<section>
-				<h2>Nasz zespół</h2>
-				<ul>
+				<h2 class="information-header">Nasz zespół</h2>
+				<ul class="list-none">
 					<li>
-						<figure>
+						<figure class="employee">
 							<img
 								src="./images/John-Doe-Product-Designer.jpg"
 								alt="Uśmiechnięty, brodaty mężczyzna w okularach w bordowej koszuli"
@@ -129,13 +133,16 @@
 								height="260"
 							/>
 							<figcaption>
-								John Doe<br />
-								Product Designer
+								<span class="employee-name">John Doe</span
+								><br />
+								<span class="employee-position"
+									>Product Designer</span
+								>
 							</figcaption>
 						</figure>
 					</li>
 					<li>
-						<figure>
+						<figure class="employee">
 							<img
 								src="./images/John-Doe-Frontend-Developer.jpg"
 								alt="Uśmiechnięta kobieta w okularach o długich blond włosach ubrana w czarną marynarkę"
@@ -143,13 +150,14 @@
 								height="260"
 							/>
 							<figcaption>
-								John Doe<br />
-								Product Designer
+								<span class="employee-name">John Doe</span
+								><br />
+								<span class="employee-position">Frontend Developer</span>
 							</figcaption>
 						</figure>
 					</li>
 					<li>
-						<figure>
+						<figure class="employee">
 							<img
 								src="./images/John-Doe-Marketing.jpg"
 								alt="Uśmiechnięty mężczyzna w błękitnej koszuli"
@@ -157,13 +165,14 @@
 								height="260"
 							/>
 							<figcaption>
-								John Doe<br />
-								Product Designer
+								<span class="employee-name">John Doe</span
+								><br />
+								<span class="employee-position">Marketing</span>
 							</figcaption>
 						</figure>
 					</li>
 					<li>
-						<figure>
+						<figure class="employee">
 							<img
 								src="./images/John-Doe-UI-Designer.jpg"
 								alt="Brodaty mężczyzna w okularach w czarnej koszulce"
@@ -171,8 +180,9 @@
 								height="260"
 							/>
 							<figcaption>
-								John Doe<br />
-								Product Designer
+								<span class="employee-name">John Doe</span
+								><br />
+								<span class="employee-position"></span>UI Designer</figcaption>
 							</figcaption>
 						</figure>
 					</li>
@@ -180,18 +190,20 @@
 			</section>
 		</main>
 
-		<footer class="footer">
-			<a class="logo logo-footer" href="index.html"
-				><span class="logo-color-web">Web</span>Studio</a
-			>
+		<footer>
+			<div class="dark-background">
+				<a class="logo logo-second" href="index.html"
+					><span class="logo-color-web">Web</span>Studio</a
+				>
 
-			<address class="address">
-				<span class="address-street"
-					>m. Warszawa, Aleje Jerozolimskie 21</span
-				><br />
-				>info@example.com<br />
-				+48 111 111 111
-			</address>
+				<address class="address">
+					<span class="address-street"
+						>m. Warszawa, Aleje Jerozolimskie 21</span
+					><br />
+					>info@example.com<br />
+					+48 111 111 111
+				</address>
+			</div>
 		</footer>
 	</body>
 </html>
