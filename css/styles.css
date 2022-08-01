@@ -1,6 +1,7 @@
 :root {
 	--background-all: #ffffff;
 	--background-dark: #2f303a;
+	--background-filter: #f5f4fa;
 	--color-address: rgba(255, 255, 255, 0.6);
 	--color-all: #212121;
 	--color-logo-web: #2196f3;
@@ -150,6 +151,41 @@ body {
 .employee-position {
 	font-size: 16px;
 	line-height: 1.1875;
+	letter-spacing: 0.03em;
+	color: var(--color-text-grey);
+}
+
+.filter {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	background-color: var(--background-filter);
+}
+
+.filter:visited,
+.filter:active {
+	color: inherit;
+	background-color: inherit;
+}
+
+.filter:hover,
+.filter:focus {
+	color: var(--color-text-white);
+	background-color: var(--color-select);
+}
+
+.image-name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.image-type {
+	font-size: 16px;
+	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: var(--color-text-grey);
 }
