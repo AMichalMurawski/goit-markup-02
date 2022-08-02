@@ -1,7 +1,7 @@
 :root {
 	--background-all: #ffffff;
 	--background-dark: #2f303a;
-	--background-filter: #f5f4fa;
+	--background-light: #f5f4fa;
 	--color-all: #212121;
 	--color-contact-transparent: rgba(255, 255, 255, 0.6);
 	--color-logo-web: #2196f3;
@@ -14,7 +14,7 @@
 body {
 	font-family: "Roboto", sans-serif;
 	color: var(--color-all);
-	background: var(--background-all);
+	background-color: var(--background-all);
 }
 
 .logo {
@@ -92,7 +92,7 @@ body {
 }
 
 .dark-background {
-	background: var(--background-dark);
+	background-color: var(--background-dark);
 }
 
 .service-text {
@@ -112,7 +112,7 @@ body {
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: var(--color-text-white);
-	background: var(--color-select);
+	background-color: var(--color-select);
 }
 
 .information-subheader {
@@ -154,13 +154,17 @@ body {
 	color: var(--color-text-grey);
 }
 
+.light-background {
+	background-color: var(--background-light);
+}
+
 .filter {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
 	letter-spacing: 0.03em;
-	background-color: var(--background-filter);
+	background-color: var(--background-light);
 }
 
 .filter:visited {
