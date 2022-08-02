@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -26,11 +26,11 @@ body {
 	text-decoration: none;
 }
 
-.logo-first {
+.logo-header {
 	color: var(--color-text-black);
 }
 
-.logo-second {
+.logo-footer {
 	color: var(--color-text-white);
 }
 
@@ -42,7 +42,7 @@ body {
 	list-style-type: none;
 }
 
-.menu-list-item {
+.menu-item {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -50,16 +50,16 @@ body {
 	text-decoration: none;
 }
 
-.menu-list-item:visited {
+.menu-item:visited {
 	color: inherit;
 }
 
-.menu-list-item:hover,
-.menu-list-item:focus {
+.menu-item:hover,
+.menu-item:focus {
 	color: var(--color-select);
 }
 
-.contact-top {
+.contact-header {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -69,7 +69,7 @@ body {
 	color: var(--color-text-grey);
 }
 
-.contact-down {
+.contact-footer {
 	font-size: 14px;
 	line-height: 1.71;
 	font-style: normal;
@@ -95,15 +95,12 @@ body {
 	background: var(--background-dark);
 }
 
-.service {
-	text-align: center;
-}
-
 .service-text {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	letter-spacing: 0.06em;
+	text-align: center;
 	text-transform: uppercase;
 	color: var(--color-text-white);
 }
@@ -111,7 +108,7 @@ body {
 .service-order {
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 1.875;
+	line-height: 1.88;
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: var(--color-text-white);
@@ -141,21 +138,19 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.employee {
-	text-align: center;
-}
-
 .employee-name {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.1875;
 	letter-spacing: 0.03em;
+	text-align: center;
 }
 
 .employee-position {
 	font-size: 16px;
 	line-height: 1.1875;
 	letter-spacing: 0.03em;
+	text-align: center;
 	color: var(--color-text-grey);
 }
 
@@ -168,8 +163,7 @@ body {
 	background-color: var(--background-filter);
 }
 
-.filter:visited,
-.filter:active {
+.filter:visited {
 	color: inherit;
 	background-color: inherit;
 }
