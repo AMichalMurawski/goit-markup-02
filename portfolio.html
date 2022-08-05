@@ -33,43 +33,49 @@
 				</ul>
 			</nav>
 
-			<a class="contact contact-header" href="mailto:info@devstudio.com"
+			<a
+				class="contact-link contact-header"
+				href="mailto:info@devstudio.com"
 				>info@devstudio.com</a
 			>
-			<a class="contact contact-header" href="tel:+48111111111"
+			<a class="contact-link contact-header" href="tel:+48111111111"
 				>+48 111 111 111</a
 			>
 		</header>
 
 		<main>
-			<div>
-				<div>
-					<ul class="list-none">
+			<div class="projects">
+				<div class="projects-filter">
+					<ul class="projects-filter-list list-none">
 						<li>
-							<button class="filter" type="button">
+							<button class="project-filter-button" type="button">
 								Wszystkie
 							</button>
 						</li>
 						<li>
-							<button class="filter" type="button">Strony</button>
+							<button class="project-filter-button" type="button">
+								Strony
+							</button>
 						</li>
 						<li>
-							<button class="filter" type="button">
+							<button class="project-filter-button" type="button">
 								Aplikacje
 							</button>
 						</li>
 						<li>
-							<button class="filter" type="button">Dizajn</button>
+							<button class="project-filter-button" type="button">
+								Dizajn
+							</button>
 						</li>
 						<li>
-							<button class="filter" type="button">
+							<button class="project-filter-button" type="button">
 								Marketing
 							</button>
 						</li>
 					</ul>
 				</div>
 
-				<ul class="list-none">
+				<ul class="projects-list list-none">
 					<li>
 						<figure>
 							<img
@@ -79,11 +85,10 @@
 								height="294"
 							/>
 							<figcaption>
-								<span class="image-name">Technocrack</span
-								><br />
-								<span class="image-type"
-									>Strona internetowa</span
-								>
+								<h3 class="projects-list-item-name">
+									Technocrack
+								</h3>
+								<p class="projects-list-item-type">Strona internetowa</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -96,10 +101,10 @@
 								height="294"
 							/>
 							<figcaption>
-								<span class="image-name"
-									>Grafika New Orlean vs Golden Star</span
-								><br />
-								<span class="image-type">Dizajn</span>
+								<h3 class="projects-list-item-name">
+									Grafika New Orlean vs Golden Star
+								</h3>
+								<p class="projects-list-item-type">Dizajn</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -112,10 +117,10 @@
 								height="294"
 							/>
 							<figcaption>
-								<span class="image-name"
-									>Restauracja Seafood</span
-								><br />
-								<span class="image-type">Aplikacja</span>
+								<h3 class="projects-list-item-name">
+									Restauracja Seafood
+								</h3>
+								<p class="projects-list-item-type">Aplikacja</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -128,9 +133,10 @@
 								height="294"
 							/>
 							<figcaption>
-								<span class="image-name">Projekt Prime</span
-								><br />
-								<span class="image-type">Marketing</span>
+								<h3 class="projects-list-item-name">
+									Projekt Prime
+								</h3>
+								<p class="projects-list-item-type">Marketing</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -143,9 +149,10 @@
 								height="294"
 							/>
 							<figcaption>
-								<span class="image-name">Projekt Boxes</span
-								><br />
-								<span class="image-type">Aplikacja</span>
+								<h3 class="projects-list-item-name">
+									Projekt Boxes
+								</h3>
+								<p class="projects-list-item-type">Aplikacja</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -158,9 +165,9 @@
 								height="294"
 							/>
 							<figcaption>
-								<span class="image-name"
-									>Inspiration has no Borders</span
-								><br />
+								<h3 class="projects-list-item-name">
+									Inspiration has no Borders
+								</h3>
 								<span class="image-type"
 									>Strona internetowa</span
 								>
@@ -176,10 +183,10 @@
 								height="294"
 							/>
 							<figcaption>
-								<span class="image-name"
-									>Magazyn Limited Edition</span
-								><br />
-								<span class="image-type">Dizajn</span>
+								<h3 class="projects-list-item-name">
+									Magazyn Limited Edition
+								</h3>
+								<p class="projects-list-item-type">Dizajn</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -192,9 +199,10 @@
 								height="294"
 							/>
 							<figcaption>
-								<span class="image-name">Projekt LAB</span
-								><br />
-								<span class="image-type">Marketing</span>
+								<h3 class="projects-list-item-name">
+									Projekt LAB
+								</h3>
+								<p class="projects-list-item-type">Marketing</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -207,9 +215,10 @@
 								height="294"
 							/>
 							<figcaption>
-								<span class="image-name">Growing Business</span
-								><br />
-								<span class="image-type">Aplikacja</span>
+								<h3 class="projects-list-item-name">
+									Growing Business
+								</h3>
+								<p class="projects-list-item-type">Aplikacja</p>
 							</figcaption>
 						</figure>
 					</li>
@@ -228,11 +237,13 @@
 						>m. Warszawa, Aleje Jerozolimskie 21</span
 					><br />
 					<a
-						class="contact contact-footer"
+						class="contact-link contact-footer"
 						href="mailto:info@devstudio.com"
 						>info@example.com</a
 					><br />
-					<a class="contact contact-footer" href="tel:+48111111111"
+					<a
+						class="contact-link contact-footer"
+						href="tel:+48111111111"
 						>+48 111 111 111</a
 					>
 				</address>

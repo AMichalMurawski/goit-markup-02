@@ -82,12 +82,12 @@ body {
 	color: var(--color-text-white);
 }
 
-.contact:visited {
+.contact-link:visited {
 	color: inherit;
 }
 
-.contact:hover,
-.contact:focus {
+.contact-link:hover,
+.contact-link:focus {
 	color: var(--color-select);
 }
 
@@ -115,7 +115,7 @@ body {
 	background-color: var(--color-select);
 }
 
-.information-subheader {
+.information-list-header {
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -123,14 +123,15 @@ body {
 	text-transform: uppercase;
 }
 
-.information-paragraph {
+.information-list-paragraph {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--color-text-grey);
 }
 
-.information-header {
+.working-header,
+.employee-header {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
@@ -138,7 +139,7 @@ body {
 	letter-spacing: 0.03em;
 }
 
-.employee-name {
+.employee-list-name {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.1875;
@@ -146,7 +147,7 @@ body {
 	text-align: center;
 }
 
-.employee-position {
+.employee-list-position {
 	font-size: 16px;
 	line-height: 1.1875;
 	letter-spacing: 0.03em;
@@ -158,7 +159,7 @@ body {
 	background-color: var(--background-light);
 }
 
-.filter {
+.project-filter-button {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -167,25 +168,25 @@ body {
 	background-color: var(--background-light);
 }
 
-.filter:visited {
+.project-filter-button:visited {
 	color: inherit;
 	background-color: inherit;
 }
 
-.filter:hover,
-.filter:focus {
+.project-filter-button:hover,
+.project-filter-button:focus {
 	color: var(--color-text-white);
 	background-color: var(--color-select);
 }
 
-.image-name {
+.projects-list-item-name {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 }
 
-.image-type {
+.projects-list-item-type {
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
